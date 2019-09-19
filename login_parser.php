@@ -9,7 +9,7 @@
             $data = htmlspecialchars($data);
             return $data;
         }
-        
+        // add your form here
         $email = cleanUsersTextInput($_POST['email']);
         $password = cleanUsersTextInput($_POST['password']);
         
